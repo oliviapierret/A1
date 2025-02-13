@@ -1,0 +1,57 @@
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* Add here: Text should be aligned in the center.*/
+  text-align:center;
+  /* Add here: Background color should be #f4f4f4 */
+   background-color:#f4f4f4;
+}
+header {
+ /* Add here: Background color should be #2c3e50 */
+background-color:#2c3e50;
+color: white;
+padding: 20px;
+}
+main {
+margin: 20px auto;
+/* Add here: Footer should take 80% of the screen width */
+width:80%;
+max-width: 800px;
+/* Add here: Background color should be white */
+background-color:white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+img {
+width: 20%;
+ /* Add here: Image width should be 20% of the original image size. */
+width:20%;
+height: auto;
+border-radius: 10px;
+}
+ul {
+list-style-type: none;
+padding: 0;
+}
+li {
+background: #2c3e50;
+/* Add here: Color should be white. */
+color:white;
+padding: 10px;
+/* Add here: Padding should be 10 pixels. */
+margin: 5px 0;
+border-radius: 5px;
+}
+footer {
+/* Add here: Background color should be #2c3e50 */
+ background-color:#2c3e50;
+/* Add here: Text color should be white. */
+color: white;
+padding: 10px;
+position: fixed;
+/* Add here: Footer width should be set to 100% */
+width:100%;
+bottom: 0;
+}
